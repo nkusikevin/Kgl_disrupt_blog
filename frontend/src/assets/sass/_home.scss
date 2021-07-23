@@ -1,0 +1,23 @@
+.home{
+    padding:2em 0;
+    h1{
+        width: 100%;
+        color: $text-color;
+        padding: 1.5em 0;
+    }
+    .bg-white{
+        background:white
+    }
+    .featured-post-container{
+        display: flex;
+    }
+}
+@media screen and (max-width:900px){
+    h1{
+        margin-block-start: 1.5em;
+        margin-block-end: 1.5em;
+    }
+    .featured-post-container{
+        flex-direction: column;
+    }
+}

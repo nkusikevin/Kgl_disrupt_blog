@@ -1,0 +1,54 @@
+.loginContainer {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: #f2f2f2;
+	.loginForm {
+		background: #fff;
+		border: none;
+		border-radius: 10px;
+		// height: 500px;
+		padding: 2rem;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 5px 10px 0px rgb(0 ,0 ,0/10%);
+		input {
+			border: none;
+			outline: none;
+			background: #f8f9fa;
+			padding: 0.835rem 4rem;
+			border-radius: 10px;
+			margin-bottom: 1rem;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.btn {
+			border: none;
+			border-radius: 10px;
+			background:$back;
+			color: #fff;
+			font-size: 15px;
+			color: #fff;
+			line-height: 1.2;
+			text-transform: uppercase;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0 20px;
+			width: 100%;
+			height: 50px;
+			cursor: pointer;
+		}
+		.login {
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+}

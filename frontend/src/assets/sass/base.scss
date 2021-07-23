@@ -1,0 +1,41 @@
+@import "./_variables";
+@import "./_navigation";
+@import "./home";
+@import "./masonary_post";
+@import "./post-masonary";
+@import"./tagRow";
+@import"./post-grid";
+@import "./single";
+@import"./footer";
+@import "./login";
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  background: #f8f9fa;
+  margin: 0;
+  margin-top: 4em;
+}
+h1 {
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 4em 20px;
+}
+
+.overlay::before {    
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent 0%, transparent 18%, rgba(0,0,0,0.8) 99%, rgba(0,0,0,0.8) 100%)
+}

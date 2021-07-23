@@ -1,0 +1,10 @@
+.masonary{
+    display: grid;
+    grid-gap:30px;
+}
+@media screen  and (max-width:900px){
+    .masonary{
+        display: flex;
+        flex-direction:column;
+    }
+}
